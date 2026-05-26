@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ls-emu-2plus1",
+    "title": "Walking distance to EMU, 2+1 apartment",
+    "priceLabel": "£300 / month",
+    "priceValue": 300,
+    "location": "Salamis Road, Famagusta",
+    "rooms": "2+1",
+    "type": "Rental",
+    "description": "Bright 2+1 apartment with balcony, fully equipped kitchen, and fast fiber internet. Located 7 minutes on foot from Eastern Mediterranean University. Ideal for two students or a small family.",
+    "contactName": "Ayse Kaya",
+    "phone": "+90 392 365 1234",
+    "image": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=800&q=80",
+    "mapPosition": { "x": 63, "y": 48 }
+  },
+  {
+    "id": "ls-roommate-125",
+    "title": "Student looking for a roommate",
+    "priceLabel": "£150 / month",
+    "priceValue": 150,
+    "location": "Kaleici, Famagusta",
+    "rooms": "Room",
+    "type": "Roommate",
+    "description": "Private room in a shared 3-bedroom flat. The student is clean, friendly, and prefers a quiet roommate. Utilities are split evenly.",
+    "contactName": "Mert Demir",
+    "phone": "+90 392 367 8855",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80",
+    "mapPosition": { "x": 57, "y": 58 }
+  },
+  {
+    "id": "ls-emu-studio",
+    "title": "Modern studio near EMU",
+    "priceLabel": "£250 / month",
+    "priceValue": 250,
+    "location": "Sakarya, Famagusta",
+    "rooms": "Studio",
+    "type": "Rental",
+    "description": "Compact studio with modern finishes, smart storage, and on-site laundry. Perfect for a single student who wants privacy and quick campus access.",
+    "contactName": "Selin Arslan",
+    "phone": "+90 392 368 4412",
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80",
+    "mapPosition": { "x": 66, "y": 40 }
+  },
+  {
+    "id": "ls-3plus1-seaview",
+    "title": "3+1 apartment with sea view",
+    "priceLabel": "£450 / month",
+    "priceValue": 450,
+    "location": "Palm Beach, Famagusta",
+    "rooms": "3+1",
+    "type": "Rental",
+    "description": "Spacious 3+1 with panoramic sea view, large living room, and two balconies. Walking distance to cafes and the beach.",
+    "contactName": "Ali Can",
+    "phone": "+90 392 369 7701",
+    "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80",
+    "mapPosition": { "x": 74, "y": 55 }
+  },
+  {
+    "id": "ls-roommate-emu",
+    "title": "Roommate needed near EMU campus",
+    "priceLabel": "£180 / month",
+    "priceValue": 180,
+    "location": "Maraş, Famagusta",
+    "rooms": "Room",
+    "type": "Roommate",
+    "description": "Shared 2-bedroom flat with a calm study atmosphere. Includes a desk, wardrobe, and shared balcony. Looking for a tidy student.",
+    "contactName": "Ece Yildiz",
+    "phone": "+90 392 361 9988",
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+    "mapPosition": { "x": 61, "y": 67 }
+  }
+]

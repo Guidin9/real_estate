@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f2f7fb;
+  --color-brand-100: #e6f0f8;
+  --color-brand-200: #c9deef;
+  --color-brand-300: #9fc3e2;
+  --color-brand-400: #6aa0cf;
+  --color-brand-500: #477fb8;
+  --color-brand-600: #35639b;
+  --color-brand-700: #2b4f7d;
+  --color-brand-800: #244063;
+  --color-brand-900: #1f3550;
+  --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  color: #0f172a;
+  background-color: #f5f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+input, button, select {
+  font: inherit;
+}
+
+button, a {
+  transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+
+.fade-in {
+  animation: fadeInUp 520ms ease both;
+}
+
+.float-soft {
+  animation: floatSoft 6s ease-in-out infinite;
+}
+
+.lift-hover {
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.lift-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSoft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+

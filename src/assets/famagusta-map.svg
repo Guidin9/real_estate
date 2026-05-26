@@ -1,0 +1,10 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#EAF2FA"/>
+  <path d="M110 460 C120 380 220 320 360 300 C520 278 650 210 780 220 C900 230 980 290 1020 360 C1060 430 1040 520 970 560 C880 610 760 640 610 650 C440 662 280 620 190 560 C130 520 100 490 110 460 Z" fill="#D6E6F6"/>
+  <path d="M205 468 C270 420 350 390 465 370 C590 348 700 300 795 310 C895 320 960 360 990 410" stroke="#B3CBE3" stroke-width="6" stroke-linecap="round"/>
+  <path d="M270 545 C360 520 480 520 610 500 C720 482 840 458 930 420" stroke="#B3CBE3" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="780" cy="420" r="10" fill="#3B82F6"/>
+  <text x="800" y="426" font-size="24" font-family="Inter, Arial, sans-serif" fill="#1E293B">Famagusta</text>
+  <text x="90" y="90" font-size="28" font-family="Inter, Arial, sans-serif" fill="#3B82F6" opacity="0.7">Northern Cyprus</text>
+</svg>
+

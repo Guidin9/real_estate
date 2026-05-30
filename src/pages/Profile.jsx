@@ -33,7 +33,9 @@ const Profile = () => {
       <div className="mx-auto max-w-4xl overflow-hidden rounded-3xl bg-white shadow-soft">
         <div className="flex items-center justify-between border-b border-slate-100 px-8 py-6">
           <div>
-            <p className="text-xs uppercase tracking-wide text-slate-400">Student Profile</p>
+            <p className="text-xs uppercase tracking-wide text-slate-400">
+              {profile.role} Profile
+            </p>
             <h1 className="text-2xl font-semibold text-slate-800">{profile.fullName}</h1>
           </div>
           <button
@@ -46,6 +48,26 @@ const Profile = () => {
         </div>
 
         <div className="grid gap-6 px-8 py-6 md:grid-cols-2">
+          {profile.role === "Agent" && (
+            <div className="rounded-2xl border border-brand-100 bg-brand-50/50 px-5 py-4 md:col-span-2">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="text-sm font-semibold text-slate-700">Agent Panel Access</p>
+                  <p className="mt-1 text-sm text-slate-500">
+                    Manage listings, review inquiries, and track performance in your panel.
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => navigate("/agent-panel")}
+                  className="rounded-lg bg-brand-500 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-600"
+                >
+                  Open Panel
+                </button>
+              </div>
+            </div>
+          )}
+
           <div className="rounded-2xl border border-slate-100 bg-slate-50 px-5 py-4">
             <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
               <UserCheck size={16} className="text-brand-500" />
@@ -86,14 +108,6 @@ const Profile = () => {
             <p className="mt-2 text-sm text-slate-600">{profile.preferredArea}</p>
           </div>
 
-          <div className="rounded-2xl border border-slate-100 bg-slate-50 px-5 py-4">
-            <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
-              <Home size={16} className="text-brand-500" />
-              Monthly Budget
-            </div>
-            <p className="mt-2 text-sm text-slate-600">{profile.budget}</p>
-          </div>
-
           <div className="rounded-2xl border border-slate-100 bg-slate-50 px-5 py-4 md:col-span-2">
             <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
               <Calendar size={16} className="text-brand-500" />
@@ -108,4 +122,3 @@ const Profile = () => {
 };
 
 export default Profile;
-

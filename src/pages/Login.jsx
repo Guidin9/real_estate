@@ -16,7 +16,7 @@ const Login = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent" />
           <div className="absolute bottom-8 left-8 text-white">
-            <p className="text-2xl font-semibold">Find your next home in Famagusta</p>
+            <p className="text-2xl font-semibold">Find your next home in North Cyprus</p>
             <p className="mt-2 text-sm text-white/80">Trusted rentals and verified roommates</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Login = () => {
           <div className="mt-10">
             <h1 className="text-2xl font-semibold text-slate-800">Sign in</h1>
             <p className="mt-2 text-sm text-slate-500">
-              Use your email to access the student housing and roommate platform.
+              Use your email to access the Real Estate platform.
             </p>
           </div>
 

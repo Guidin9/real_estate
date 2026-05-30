@@ -1,4 +1,4 @@
-import famagustaMap from "../assets/famagusta-map.svg";
+import famagustaMap from "../assets/map1.png";
 
 const MapPanel = ({ listings, onSelect }) => {
   return (
